@@ -30,22 +30,16 @@
   padding: 10px;
   border: none;
   width: 100%;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+
   outline: none;
 }
 
-
-
-
 .voice {
-  display: flex;
-  align-items: center;
-  color: black;
-  position: relative;
-  right: 7%;
-  top: 5px;
-
+  padding: 4gitpx;
+  height: 20px;
+  background-color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px
 }
 
 .searchIcon {
