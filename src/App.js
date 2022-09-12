@@ -1,16 +1,17 @@
 import React from 'react';
-import "./Home";
-import Home from './Home';
+import Home from "./Home";
+import Searchpage from "./Searchpage";
 import { BrowserRouter, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 const App = () => {
   return (
     <div className='app'>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home /> } />
+          <Route path='/' element={<Home />} />
+          <Route path='searchpage' element={<Searchpage />} />
         </Routes>
-
       </BrowserRouter>
     </div>
 

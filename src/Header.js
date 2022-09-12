@@ -1,6 +1,7 @@
 
 import React from 'react';
 import "./Header.css";
+import { Link } from 'react-router-dom';
 import MicNoneIcon from '@mui/icons-material/MicNone';
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
@@ -17,10 +18,23 @@ const Header = () => {
 
             />
 
+
+
+
             <div className='header__search'>
 
+
                 <SearchIcon className=" searchIcon " />
-                <input className=" searchbar " type="text" placeholder='search here' />
+
+                <Link to='/Searchpage'>
+
+
+
+                    <input className=" searchbar " type="text"
+
+                    />
+
+                </Link>
                 <MicNoneIcon className=" voice " />
 
 
@@ -28,7 +42,10 @@ const Header = () => {
 
 
 
+
             </div>
+
+
             <div className='header__nav'>
                 <div className='header__OptionOne'>
                     <span className='header__optionLineOne'>Hello </span>
